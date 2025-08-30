@@ -1,5 +1,6 @@
 /*
-Use with https://github.com/tjbrennan/obsidian-color-cycler to have the UI elements rotate colours.
+Changes most basic UI elements to follow the user's chosen accent colour.
+Use with https://github.com/tjbrennan/obsidian-color-cycler to have the UI elements rotate colours automatically.
 Colour presets matching the "mixed (contrast)" https://github.com/Kovah/obsidian-rainbow-colored-sidebar theme are in obsidian-color-cycler presets.json.
 */
 
@@ -84,3 +85,4 @@ Colour presets matching the "mixed (contrast)" https://github.com/Kovah/obsidian
 .status-bar:active {
   color: var(--color-accent) !important;
 }
+
