@@ -1,0 +1,86 @@
+/*
+Use with https://github.com/tjbrennan/obsidian-color-cycler to have the UI elements rotate colours.
+Colour presets matching the "mixed (contrast)" https://github.com/Kovah/obsidian-rainbow-colored-sidebar theme are in obsidian-color-cycler presets.json.
+*/
+
+.clickable-icon,
+.clickable-icon:hover,
+.clickable-icon:active {
+  color: var(--color-accent) !important;
+}
+
+.workspace-tab-header-inner-icon,
+.workspace-tab-header-inner-icon:hover,
+.workspace-tab-header-inner-icon:active {
+  color: var(--color-accent) !important;
+}
+
+.workspace-tab-header-inner-title,
+.workspace-tab-header-inner-title:hover,
+.workspace-tab-header-inner-title:active {
+  color: var(--color-accent) !important;
+}
+
+.empty-state-action {
+  color: var(--color-accent) !important;
+}
+
+.workspace-leaf-resize-handle,
+.workspace-leaf-resize-handle:hover,
+.workspace-leaf-resize-handle:active {
+  border-color: var(--color-accent) !important;
+}
+
+.workspace-tab-header-inner-close-button,
+.workspace-tab-header-inner-close-button:hover,
+.workspace-tab-header-inner-close-button:active {
+  color: var(--color-accent) !important;
+}
+
+.is-focused .titlebar-inner,
+.is-focused .titlebar-inner:hover,
+.is-focused .titlebar-inner:active {
+  color: var(--color-accent) !important;
+}
+
+.view-header-title,
+.view-header-title:hover,
+.view-header-title:active {
+  color: var(--color-accent) !important;
+}
+
+.view-header-title-parent,
+.view-header-title-parent:hover,
+.view-header-title-parent:active {
+  color: var(--color-accent) !important;
+}
+
+.view-header-breadcrumb,
+.view-header-breadcrumb:hover,
+.view-header-breadcrumb:active {
+  color: var(--color-accent) !important;
+}
+
+.view-header-breadcrumb-separator,
+.view-header-breadcrumb-separator:hover,
+.view-header-breadcrumb-separator:active {
+  color: var(--color-accent) !important;
+}
+
+.workspace-drawer-vault-switcher,
+.workspace-drawer-vault-switcher:hover,
+.workspace-drawer-vault-switcher:active {
+  color: var(--color-accent) !important;
+}
+
+.workspace-drawer-vault-switcher-icon,
+.workspace-drawer-vault-switcher-icon:hover,
+.workspace-drawer-vault-switcher-icon:active {
+  color: var(--color-accent) !important;
+}
+
+.status-bar,
+.status-bar:hover,
+.status-bar:active {
+  color: var(--color-accent) !important;
+}
