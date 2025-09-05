@@ -1,0 +1,6 @@
+body {
+  --icon-color: var(--color-accent) !important;
+  --icon-color-focused: var(--color-accent) !important;
+  --icon-color-active: var(--color-accent) !important;
+  --icon-color-hover: var(--color-accent) !important;
+}

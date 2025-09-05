@@ -1,0 +1,8 @@
+body {
+  --metadata-label-text-color: var(--color-accent);
+  --metadata-input-text-color: var(--color-accent);
+}
+
+.metadata-properties-title {
+  color: var(--color-accent) !important;
+}

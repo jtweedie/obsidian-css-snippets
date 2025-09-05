@@ -1,0 +1,4 @@
+body {
+  --text-muted: var(--color-accent) !important;
+  --text-faint: var(--color-accent) !important;
+}

@@ -1,0 +1,15 @@
+.subitem button.menu-item {
+  color: var(--color-accent) !important;
+}
+
+:is(#editingToolbarModalBar, #editingToolbarPopoverBar)
+  :is(
+    .editingToolbarCommandItem,
+    button[class^="editingToolbarCommandsubItem"]
+  ):not(.editingToolbar-Divider-Line) {
+  color: var(--color-accent) !important;
+}
+
+#editingToolbarModalBar > span > button > svg > path {
+  fill: var(--color-accent) !important;
+}

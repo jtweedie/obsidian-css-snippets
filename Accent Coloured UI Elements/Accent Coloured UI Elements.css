@@ -1,88 +1,37 @@
 /*
-Changes most basic UI elements to follow the user's chosen accent colour.
-Use with https://github.com/tjbrennan/obsidian-color-cycler to have the UI elements rotate colours automatically.
+Use with https://github.com/tjbrennan/obsidian-color-cycler to have the UI elements rotate colours.
 Colour presets matching the "mixed (contrast)" https://github.com/Kovah/obsidian-rainbow-colored-sidebar theme are in obsidian-color-cycler presets.json.
 */
 
-.clickable-icon,
-.clickable-icon:hover,
-.clickable-icon:active {
+body {
+  --titlebar-text-color: var(--color-accent) !important;
+  --titlebar-text-color-focused: var(--color-accent) !important;
+  --titlebar-text-color-hover: var(--color-accent) !important;
+  --titlebar-text-color-active: var(--color-accent) !important;
+  --tab-text-color-focused-active: var(--color-accent) !important;
+  --tab-text-color-focused-active-current: var(--color-accent) !important;
+  --vault-profile-color: var(--color-accent) !important;
+  --vault-profile-color-focused: var(--color-accent) !important;
+  --vault-profile-color-hover: var(--color-accent) !important;
+  --status-bar-text-color: var(--color-accent) !important;
+  --nav-heading-color-collapsed: var(--color-accent) !important;
+  --nav-heading-color-collapsed-hover: var(--color-accent) !important;
+  --nav-item-color-hover: var(--color-accent) !important;
+  --nav-heading-color: var(--color-accent) !important;
+}
+
+.view-header-breadcrumb-separator {
   color: var(--color-accent) !important;
 }
-
-.workspace-tab-header-inner-icon,
-.workspace-tab-header-inner-icon:hover,
-.workspace-tab-header-inner-icon:active {
+.view-header-breadcrumb {
   color: var(--color-accent) !important;
 }
-
-.workspace-tab-header-inner-title,
-.workspace-tab-header-inner-title:hover,
-.workspace-tab-header-inner-title:active {
+.view-header-title {
   color: var(--color-accent) !important;
 }
-
-.empty-state-action {
+.status-bar-item.plugin-properties.mod-clickable {
   color: var(--color-accent) !important;
 }
-
-.workspace-leaf-resize-handle,
-.workspace-leaf-resize-handle:hover,
-.workspace-leaf-resize-handle:active {
-  border-color: var(--color-accent) !important;
-}
-
-.workspace-tab-header-inner-close-button,
-.workspace-tab-header-inner-close-button:hover,
-.workspace-tab-header-inner-close-button:active {
+.status-bar-item.mod-clickable:hover {
   color: var(--color-accent) !important;
 }
-
-.is-focused .titlebar-inner,
-.is-focused .titlebar-inner:hover,
-.is-focused .titlebar-inner:active {
-  color: var(--color-accent) !important;
-}
-
-.view-header-title,
-.view-header-title:hover,
-.view-header-title:active {
-  color: var(--color-accent) !important;
-}
-
-.view-header-title-parent,
-.view-header-title-parent:hover,
-.view-header-title-parent:active {
-  color: var(--color-accent) !important;
-}
-
-.view-header-breadcrumb,
-.view-header-breadcrumb:hover,
-.view-header-breadcrumb:active {
-  color: var(--color-accent) !important;
-}
-
-.view-header-breadcrumb-separator,
-.view-header-breadcrumb-separator:hover,
-.view-header-breadcrumb-separator:active {
-  color: var(--color-accent) !important;
-}
-
-.workspace-drawer-vault-switcher,
-.workspace-drawer-vault-switcher:hover,
-.workspace-drawer-vault-switcher:active {
-  color: var(--color-accent) !important;
-}
-
-.workspace-drawer-vault-switcher-icon,
-.workspace-drawer-vault-switcher-icon:hover,
-.workspace-drawer-vault-switcher-icon:active {
-  color: var(--color-accent) !important;
-}
-
-.status-bar,
-.status-bar:hover,
-.status-bar:active {
-  color: var(--color-accent) !important;
-}
-
